@@ -1,0 +1,13 @@
+[project]
+name = "agent-registry"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.135.2",
+    "httpx>=0.28.1",
+    "pydantic>=2.12.5",
+    "pytest>=9.0.2",
+    "sqlalchemy>=2.0.48",
+]
