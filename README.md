@@ -245,3 +245,12 @@ Several changes apply at different layers:
 - Run multiple Uvicorn workers behind a load balancer (e.g., nginx or AWS ALB).
 - Add a caching layer (Redis) for `GET /agents` and `GET /usage-summary` with short TTLs.
 - Rate-limit `/usage` per caller to prevent abuse.
+
+
+  ### AI Usage Disclosure
+
+- Yes, I used AI assistance (ChatGPT) to help refine explanations and structure answers clearly.  
+- It was mainly used for drafting and improving sections like design explanations, scalability, and wording in the README.  
+- I reviewed and modified the outputs to match my implementation, ensuring accuracy and alignment with my code.  
+- Core logic, architecture decisions, and implementation were done independently without relying on AI.  
+- I avoided using AI for critical reasoning parts to ensure a solid personal understanding of the system.  
